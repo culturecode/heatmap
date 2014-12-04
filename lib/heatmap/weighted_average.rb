@@ -1,4 +1,4 @@
-require 'base'
+require 'heatmap/base'
 
 module Heatmap
   class WeightedAverage < Base
@@ -33,11 +33,11 @@ module Heatmap
       end
 
       if !any
-        return nil
+        return TRANSPARENT_PIXEL
       elsif dnm == 0
-        return num
+        return colour(num)
       else
-        return num / dnm
+        return colour(num / dnm)
       end
     end
   end

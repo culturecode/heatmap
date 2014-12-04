@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.1.7"
   s.add_dependency "rmagick"
+  s.add_dependency "kdtree"
 
   s.add_development_dependency "sqlite3"
 end

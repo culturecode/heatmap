@@ -1,4 +1,4 @@
-require 'base'
+require 'heatmap/base'
 
 module Heatmap
   class Density < Base

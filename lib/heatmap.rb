@@ -1,5 +1,6 @@
 # GEMS
 require 'RMagick'
+require 'kdtree'
 
 # HEATMAP
 require 'heatmap/base'
